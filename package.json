@@ -1,0 +1,29 @@
+{
+  "name": "boxlang",
+  "displayName": "BoxLang",
+  "description": "Extension para la sintaxis de BoxLang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "boxlang",
+      "aliases": ["BoxLang", "boxlang"],
+      "extensions": [".bx",".tb"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "boxlang",
+      "scopeName": "source.boxlang",
+      "path": "./syntaxes/boxlang.tmLanguage.json"
+    }]
+  },
+   "repository": {
+        "type": "git",
+        "url": "https://github.com/HCHcompany/boxlangextension.git"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "scopeName": "source.boxlang",
+    "patterns": [
+        {
+            "name": "keyword.control.mylanguage",
+            "match": "\\b(if|else|for|while|foreach|switch|case|do|elif|try|catch|insof)\\b"
+        },
+        {
+            "name": "variable.language.boxlang",
+            "match": "\\b(var:|var|const|public|local|private|protected|static|abstract|native|extern)\\b"
+        },
+        {
+            "name": "string.quoted.double.boxlang",
+            "begin": "\"",
+            "end": "\""
+        },
+        {
+            "name": "comment.line.double-slash.boxlang",
+            "begin": "//",
+            "end": "$"
+        }
+    ],
+    "repository": {},
+    "fileTypes": [
+        "bx"
+    ],
+    "name": "BoxLang",
+    "scopeName": "source.boxlang"
+}
